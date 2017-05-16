@@ -1,0 +1,21 @@
+div
+{
+	float: left;
+}
+
+img
+{
+	width: 30%;
+	float: auto;
+	margin: 1.06%;
+}
+
+p
+{
+	font-family: Raleway 100;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 3px solid black;
+	text-align: center;
+}
