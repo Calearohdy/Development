@@ -1,5 +1,20 @@
 // Arrays
-	var sum = [1,2,5];
+	var max = [1,4,3];
+	var counter = 0;
+
+	function maxValue(max){
+		for (var i = 0; i < max.length; i++) {
+			if (max[i] > counter) {
+				counter = max[i];
+			}
+	}
+	return counter;
+}
+	console.log(maxValue(max));
+
+/*
+
+var sum = [1,2,5];
 	var count = 0;
 
 	function sumArray(sum){
@@ -9,7 +24,6 @@
 		return count;
 	}
 	console.log(sumArray(sum));
-/*
 var same = ["a","a","b"];
 
 	function isUniform(same){
