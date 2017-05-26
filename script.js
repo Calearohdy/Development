@@ -1,3 +1,44 @@
+
+
+/*
+//movieDB Object assignment
+var movies = [
+{
+	title: "Die Hard",
+	hasWatched: true,
+	rating: 4.5
+},
+{
+	title: "Die Hard 2",
+	hasWatched: true,
+	rating: 4.2
+},
+{
+	title: "Enemy of the State",
+	hasWatched: false,
+	rating: 5
+},
+{
+	title: "Hitched",
+	hasWatched: true,
+	rating: 5
+}
+
+]
+
+movies.forEach(function(movie){
+	var result = "You have ";
+	if (movie.hasWatched) {
+		result += "watched ";
+	} else {
+		result += "not seen ";
+	}
+	result += "\"" + movie.title + "\" - ";
+	result += movie.rating + " stars";
+	console.log(result);
+})
+
+
 // Arrays
 	var max = [1,4,3];
 	var counter = 0;
@@ -11,9 +52,7 @@
 	return counter;
 }
 	console.log(maxValue(max));
-
-/*
-
+ 
 var sum = [1,2,5];
 	var count = 0;
 
