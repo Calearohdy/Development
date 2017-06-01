@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html id="color">
 <head>
 	<title>Script Demos</title>
 	<script src="script.js"></script>
 </head>
-<body>
+<body id="check">
+<div id="test"></div>
 
+<script>
+  document.getElementById("check").addEventListener("click", function( event ) {
+    // display the current click count inside the clicked div
+    event.target.style.color = "red ";
+    alert("Clicked");
+  }, false);
+</script>
 <h1>Javascript demos</h1>
 	<h2>TO-DO List</h2>
 		<ul>
@@ -14,6 +22,8 @@
 			<li>"Delete" - View</li>
 			<li>"quit" - Exit</li>
 		</ul>
-
+<button>
+	Color Change
+</button>
 </body>
 </html>

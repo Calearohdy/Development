@@ -1,4 +1,20 @@
+var color = document.getElementById("color");
 
+color.addEventListener("click",function(event){
+	this.style.background = "blue";
+	console.log("clicked");
+})
+// var isLarge = false;
+
+
+// setInterval(function(){
+// if (isLarge) {
+// 	text.innerHTML = "JS Demo";
+// } else {
+// 	text.innerHTML = "JavaScript Demo";
+// }
+// 	isLarge = !isLarge;
+// }, 2000);
 
 /*
 //movieDB Object assignment
