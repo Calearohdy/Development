@@ -1,9 +1,18 @@
-var color = document.getElementById("color");
+var code = document.getElementsByTagName("code");
+var count = 0;
 
-color.addEventListener("click",function(event){
-	this.style.background = "blue";
-	console.log("clicked");
-})
+for (var i = 0; i = code.length; i++) {
+	 count = code[i];
+		count++;
+}
+console.log(count);
+
+// var color = document.getElementById("color");
+
+// color.addEventListener("click",function(event){
+// 	this.style.background = "blue";
+// 	console.log("clicked");
+// })
 // var isLarge = false;
 
 
