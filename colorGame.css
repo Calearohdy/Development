@@ -18,3 +18,14 @@ h1 {
 	margin: 0 auto;
 	max-width: 600px;
 }
+
+#stripe {
+	background: white;
+	height: 25px;
+	text-align: center;
+	color: black;
+}
+
+.selected{
+	background: blue;
+}
