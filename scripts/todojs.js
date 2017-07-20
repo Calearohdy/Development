@@ -6,5 +6,8 @@ $("li").click(function() {
 
 //click on X to delete
 $("span").click(function() {
-
+    $(this).parent().fadeOut(500, function() {
+        $(this).remove();
+    });
+    event.stopPropagation();
 })
