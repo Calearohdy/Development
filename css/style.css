@@ -1,7 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #114357;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F29492, #114357);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F29492, #114357);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    background: #403A3E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BE5869, #403A3E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BE5869, #403A3E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+i {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+
+span {
+    opacity: 100%;
+}
+
+li {
+    background: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+
+li:nth-child(2n) {
+    background: #f7f7f7;
+}
+
+input {
+    font-size: 18px;
+    color: #2980b9;
+    ;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    background: #fff;
+    border: 3px solid blue;
+    outline: none;
+}
+
 #container {
     width: 360px;
-    margin: 0 auto;
-    border: 3px solid gray;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
 }
 
 .completed {
