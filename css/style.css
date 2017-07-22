@@ -23,8 +23,20 @@ h1 {
     font-weight: normal;
 }
 
-i {
-    color: black;
+span {
+    background: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+.fa-plus {
+    float: right;
 }
 
 ul {
@@ -33,15 +45,16 @@ ul {
     padding: 0px;
 }
 
-span {
-    opacity: 100%;
-}
-
 li {
     background: #ffffff;
     height: 40px;
     line-height: 40px;
     color: #666;
+}
+
+li:hover span {
+    width: 40px;
+    opacity: 1.0;
 }
 
 li:nth-child(2n) {
@@ -55,11 +68,12 @@ input {
     width: 100%;
     padding: 13px 13px 13px 20px;
     box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
 }
 
 input:focus {
     background: #fff;
-    border: 3px solid blue;
+    border: 3px solid black;
     outline: none;
 }
 
@@ -73,4 +87,9 @@ input:focus {
 .completed {
     color: gray;
     text-decoration: line-through;
+}
+
+.hide {
+    height: 0px;
+    opacity: 0;
 }
